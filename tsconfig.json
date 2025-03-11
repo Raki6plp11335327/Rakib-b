@@ -1,0 +1,29 @@
+{
+  "ts-node": {
+    "transpileOnly": true
+  },
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": false,
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": false,
+    "outDir": "./dist-commandfiles",
+    "rootDir": "./",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "target": "ES2024",
+    "lib": ["ES2024"],
+    "types": ["node"],
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "declaration": true,
+    "declarationMap": true,
+    "allowJs": true
+  },
+  "exclude": ["node_modules"]
+}
